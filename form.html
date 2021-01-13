@@ -1,0 +1,24 @@
+
+<html>
+	<head>
+		<a href="/">Home |</a>
+		<a href="/restaurants">Restaurants |</a>
+		<a href="/addrestaurant">Add Restaurant</a>
+		<title>Add Restaurant:</title>
+	</head>
+	
+	<body>
+		<form id="myForm" >
+			<br>
+			<label for="resName">Restaurant Name:</label>
+			<input id="resNameInput" name="name" value="" required><br>
+			<label for="resFee">Delivery Fee ($):</label>
+			<input type="number" step=".01" id="resFeeInput" name="name" value="" required><br>
+			<label for="resMin">Minimum Order ($):</label>
+			<input type="number" step=".01" id="resMinInput" name="name" value="" required><br>
+			<input type="submit" value="Add Restauarant" onclick="addRestaurant()">
+		</form>
+		<script src="client.js"></script>
+	</body>
+
+</html>
