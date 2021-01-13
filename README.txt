@@ -1,5 +1,4 @@
-name: Daniel Violin
-student number: 101173598
+The server is responsible for storing restaurant data for any number of restaurants. The server also provides functionality to allow a user to add new restaurants and modify the information/menu of restaurants currently stored on the server. This is done using the Express module.
 
 1. Navigate to location of assignment3 inside terminal
 2. Run 'npm install' at this location
